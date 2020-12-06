@@ -1,4 +1,4 @@
-	.row {
+.row {
 	display: -ms-flexbox;
 	/* IE 10 */
 	display: flex;
@@ -209,7 +209,7 @@ body {
 @media screen and (max-width: 991px) {
 	.navmobile {
 		display: block;
-	}
+	}}
 	/* Desktop Visible - Mobile Hidden - Desktop Top Buttons*/
 	.topbuttons {
 		display: block;
