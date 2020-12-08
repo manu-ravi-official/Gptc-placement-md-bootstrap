@@ -183,6 +183,7 @@ div.blueTable {
 @media (max-width: 767px) { 
   .navbar{
       display:none;
+
       
   }
 }
