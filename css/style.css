@@ -167,7 +167,7 @@ div.blueTable {
 /*placement */
 
 .placement {
-	line-height: 21.5pt;
+	line-height: 24pt;
 }
 
 
@@ -213,12 +213,21 @@ body {
 	/* Desktop Visible - Mobile Hidden - Desktop Top Buttons*/
 	.topbuttons {
 		display: block;
+		
 	}
 	@media screen and (max-width: 991px) {
 		.topbuttons {
 			display: none;
 		}
-	}
-.start{
+		.start{
 		padding-top:55px;
 	}
+	}
+	
+	@media  screen and (min-width: 991px) {
+	.training
+	{
+		font-weight: 400;
+		font-size: 15pt;
+		line-height: 55pt;
+	}}
